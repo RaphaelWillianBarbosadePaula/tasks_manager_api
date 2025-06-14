@@ -44,4 +44,3 @@ module TaskManagerApi
     config.middleware.use Rack::MethodOverride
   end
 end
-

@@ -24,7 +24,7 @@ gem "solid_cable"
 gem "bootsnap", require: false
 
 # Deploy this application anywhere as a Docker container [https://kamal-deploy.org]
-#gem "kamal", require: false
+# gem "kamal", require: false
 
 # Add HTTP asset caching/compression and X-Sendfile acceleration to Puma [https://github.com/basecamp/thruster/]
 gem "thruster", require: false
@@ -36,10 +36,10 @@ gem "thruster", require: false
 gem "rack-cors"
 
 # Rails Admin para ORM:
-gem 'rails_admin', '~> 3.0'
+gem "rails_admin", "~> 3.0"
 
 # JWT para autenticação
-gem 'jwt'
+gem "jwt"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
